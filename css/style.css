@@ -1,6 +1,10 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #white;
+  color: #black;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  line-height: 1.5em;
+  background: #fff url(images/bloc logo.png)
 }
 
 nav {
@@ -9,6 +13,22 @@ nav {
   position: fixed;
   width: 100%;
 }
+
+h1 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover { color:#0070BC; }
+
 
 .logo {
   margin: 20px;
